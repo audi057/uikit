@@ -2542,11 +2542,11 @@ var Menu = function (_a) {
                     // React.createElement(Button, { variant: "text", mx: 3, onClick: function () { return toggleTheme(!isDark); } },
                     //     React.createElement(Flex, { alignItems: "center" }, isDark ? React.createElement(SunIcon, { color: isDark ? "textDisabled" : "text", width: "24px" })
                     //         : React.createElement(MoonIcon, { color: isDark ? "text" : "textDisabled", width: "24px" }))),
-                    React.createElement(Dropdown, { position: "top-left", target: React.createElement(Button, { mx: 5, variant: "text" },
-                            React.createElement(Text, { color: "textSubtle" }, currentLang === null || currentLang === void 0 ? void 0 : currentLang.toUpperCase())) }, langs.map(function (lang) { return (React.createElement(MenuButton, { key: lang.code, fullWidth: true, onClick: function () { return setLang(lang); }, 
-                        // Safari fix
-                        style: { minHeight: "32px", height: "auto"} }, lang.language)); }))
-                        ))),
+                    // React.createElement(Dropdown, { position: "top-left", target: React.createElement(Button, { mx: 5, variant: "text" },
+                    //         React.createElement(Text, { color: "textSubtle" }, currentLang === null || currentLang === void 0 ? void 0 : currentLang.toUpperCase())) }, langs.map(function (lang) { return (React.createElement(MenuButton, { key: lang.code, fullWidth: true, onClick: function () { return setLang(lang); }, 
+                    //     // Safari fix
+                    //     style: { minHeight: "32px", height: "auto"} }, lang.language)); }))
+                    //     ))),
         React.createElement(BodyWrapper, null,
             React.createElement(Inner, { isPushed: isPushed, showMenu: showMenu }, children),
             React.createElement(MobileOnlyOverlay, { show: isPushed, onClick: function () { return setIsPushed(false); }, role: "presentation" }))));
