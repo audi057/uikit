@@ -1,14 +1,12 @@
-#wdefi UIkit
+#UIkit
 
 
-WDefi UIkit is a set of React components and hooks used to build pages on Wdefi's apps. It also contains a theme file for dark and light mode.
+UIkit is a set of React components and hooks used to build pages on defi apps. It also contains a theme file for dark and light mode.
 
 
 ## Setup
 
 ### Theme
-
-Before using WDefi UIkit, you need to provide the theme file to styled-component.
 
 ```
 import { ThemeProvider } from 'styled-components'
